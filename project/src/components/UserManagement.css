@@ -1,0 +1,102 @@
+.user-management-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 16px;
+  }
+  
+  .user-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .search-input, .add-user-btn {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+  }
+  
+  .add-user-btn {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .user-card {
+    padding: 16px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    transition: transform 0.2s ease;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .user-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .activate-btn, .deactivate-btn, .edit-btn, .delete-btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .activate-btn { background-color: #28a745; color: white; }
+  .deactivate-btn { background-color: #ffc107; color: black; }
+  .edit-btn { background-color: #17a2b8; color: white; }
+  .delete-btn { background-color: #dc3545; color: white; }
+  
+  /* Modal Styling */
+  .modal-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .save-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .save-btn:hover {
+    background-color: #218838;
+  }
+  

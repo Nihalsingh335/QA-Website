@@ -1,0 +1,104 @@
+/* ======== CONTAINER ======== */
+.login-container {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ======== TITLE ======== */
+  h2 {
+    color: #222;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* ======== INPUT FIELDS ======== */
+  input,
+  select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  select {
+    cursor: pointer;
+  }
+  
+  /* ======== BUTTONS ======== */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* ======== SOCIAL LOGIN ======== */
+  .social-login {
+    margin-top: 10px;
+  }
+  
+  .google-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #db4437;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .google-button:hover {
+    background-color: #c1351d;
+  }
+  
+  /* ======== FORGOT PASSWORD ======== */
+  .forgot-password {
+    color: #007bff;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  /* ======== MESSAGE ======== */
+  .message {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+  }
+  
+  /* ======== RESPONSIVENESS ======== */
+  @media (max-width: 480px) {
+    .login-container {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    input,
+    select,
+    button {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,95 @@
+/* General Styling */
+.features-container {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #e3f2fd 0%, #f4f4f9 100%);
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .features-heading {
+    font-size: 42px;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Grid Layout */
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  /* Feature Card */
+  .feature-card {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 
+      0 10px 20px rgba(0, 0, 0, 0.1), 
+      inset 0 -3px 5px rgba(0, 0, 0, 0.05);
+    transition: 
+      transform 0.4s ease, 
+      box-shadow 0.4s ease, 
+      background 0.4s ease;
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+    perspective: 1200px;
+    transform-style: preserve-3d;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  
+  .feature-card h3 {
+    font-size: 22px;
+    color: #34495e;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  /* 3D Hover Animation */
+  .feature-card:hover {
+    transform: translateY(-15px) rotateX(10deg) rotateY(5deg) scale(1.07);
+    box-shadow: 
+      0 15px 30px rgba(0, 0, 0, 0.2), 
+      inset 0 -3px 5px rgba(0, 0, 0, 0.05), 
+      0px 0px 15px rgba(30, 144, 255, 0.6); /* Glowing border */
+    background: linear-gradient(145deg, #fafafa, #e0e0e0);
+  }
+  
+  .feature-card:hover h3 {
+    transform: translateZ(20px);
+    color: #1e90ff; /* Highlight text on hover */
+  }
+  
+  /* Active State */
+  .feature-card:active {
+    transform: translateY(0) rotateX(0) rotateY(0) scale(1);
+    box-shadow: 
+      0 5px 10px rgba(0, 0, 0, 0.15), 
+      inset 0 -3px 5px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .features-heading {
+      font-size: 30px;
+    }
+  
+    .features-grid {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+  
+    .feature-card {
+      max-width: 100%;
+      padding: 20px;
+    }
+  }
+  

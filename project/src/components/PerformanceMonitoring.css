@@ -1,0 +1,61 @@
+/* Performance Monitoring CSS */
+.performance-monitoring {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background: #1e1e2f;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .performance-monitoring:hover {
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+  }
+  
+  .url-input {
+    width: 60%;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    background: #2a2a3b;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .url-input:focus {
+    outline: none;
+    background: #33334d;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .charts-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .chart-box {
+    width: 30%;
+    background: #2a2a3b;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .chart-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  }
+  
+  h2, h3 {
+    color: #ffce56;
+  }
+  

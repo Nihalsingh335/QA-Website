@@ -1,0 +1,76 @@
+.integration-api {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #1e1e2f;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .api-input, .method-select, .test-btn {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .api-input {
+    background: #2c2c3e;
+    color: #fff;
+    outline: none;
+  }
+  
+  .method-select {
+    background: #3a3a50;
+    color: #fff;
+  }
+  
+  .test-btn {
+    background: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .test-btn:hover {
+    background: #0056b3;
+  }
+  
+  .loading {
+    color: #ffc107;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .error {
+    color: #ff4d4d;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .response-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #2c2c3e;
+    border-radius: 5px;
+    text-align: left;
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 14px;
+  }
+  
+  pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }

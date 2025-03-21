@@ -1,0 +1,85 @@
+.about {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .about section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .about h2 {
+    color: #007bff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .about ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .about li {
+    margin-bottom: 8px;
+  }
+  
+  .challenges strong {
+    color: #dc3545;
+  }
+  
+  .future-scope {
+    background-color: #e9f7ef;
+    border-color: #c3e6cb;
+  }
+  .about {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .about section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .about h2 {
+    color: #007bff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .about ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .about li {
+    margin-bottom: 8px;
+  }
+  
+  .challenges strong {
+    color: #dc3545;
+  }
+  
+  .future-scope {
+    background-color: #e9f7ef;
+    border-color: #c3e6cb;
+  }
+    

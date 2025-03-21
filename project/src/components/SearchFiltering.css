@@ -1,0 +1,120 @@
+.search-filtering-container {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .search-section {
+    flex: 1;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    background: #f5f5f5;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+    background: #fff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+  }
+  
+  .filter-results-container {
+    display: flex;
+    flex: 2;
+    gap: 20px;
+  }
+  
+  .filter-options {
+    min-width: 200px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-options h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  .filter-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: none;
+    background: #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .filter-btn:hover, .filter-btn.active {
+    background: #007bff;
+    color: white;
+  }
+  
+  .results {
+    flex: 1;
+    max-height: 400px;
+    overflow-y: auto;
+    border-left: 2px solid #eee;
+    padding-left: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: #007bff #f5f5f5;
+  }
+  
+  .result-item {
+    padding: 15px;
+    background: linear-gradient(135deg, #eef2ff, #dde7ff);
+    border-radius: 10px;
+    margin-bottom: 12px;
+    transition: all 0.3s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-item:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #dde7ff, #c5d1ff);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .result-item h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #222;
+  }
+  
+  .result-item p {
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .category {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
